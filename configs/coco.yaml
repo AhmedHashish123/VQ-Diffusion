@@ -76,9 +76,9 @@ model:
 solver:
   base_lr: 3.0e-6
   adjust_lr: none # not adjust lr according to total batch_size
-  max_epochs: 100
-  save_epochs: 2
-  validation_epochs: 5
+  max_epochs: 2
+  save_epochs: 1
+  validation_epochs: 1
   sample_iterations: epoch  # epoch #30000      # how many iterations to perform sampling once ?
   print_specific_things: True
 
@@ -120,13 +120,13 @@ solver:
 
 dataloader:
   # data_root: data
-  data_root: /mnt/blob/datasets/MSCOCO_Caption
+  data_root: datasets/MSCOCO_Caption
   batch_size: 4
   num_workers: 4
   train_datasets: # a list of configures, so we can combine several schedulers
     - target: image_synthesis.data.mscoco_dataset.CocoDataset
       params:
-        data_root: /mnt/blob/datasets/MSCOCO_Caption
+        data_root: datasets/MSCOCO_Caption
         phase: train
         drop_caption_rate: 0.0
         im_preprocessor_config:
@@ -137,7 +137,7 @@ dataloader:
   validation_datasets:
     - target: image_synthesis.data.mscoco_dataset.CocoDataset
       params:
-        data_root: /mnt/blob/datasets/MSCOCO_Caption
+        data_root: datasets/MSCOCO_Caption
         phase: val
         im_preprocessor_config:
           target: image_synthesis.data.utils.image_preprocessor.DalleTransformerPreprocessor
