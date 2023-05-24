@@ -79,7 +79,7 @@ class DiffusionTransformer(nn.Module):
         adaptive_auxiliary_loss=False,
         mask_weight=[1,1],
 
-        learnable_cf=False,
+        learnable_cf=True,
     ):
         super().__init__()
 

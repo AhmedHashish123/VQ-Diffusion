@@ -277,7 +277,7 @@ class TamingGumbelVQVAE(BaseCodec):
 
     def decode(self, img_seq):
         if self.quantize_number != 0:
-            img_seq=self.quantize_to_full[img_seq].type_as(img_seq)
+            img_seq=self.quantize_to_full[img_seq.to('cpu')].type_as(img_seq)
         b, n = img_seq.shape
         img_seq = rearrange(img_seq, 'b (h w) -> b h w', h = int(math.sqrt(n)))
 
