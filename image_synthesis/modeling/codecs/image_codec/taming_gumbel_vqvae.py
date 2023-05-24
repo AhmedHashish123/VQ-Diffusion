@@ -270,7 +270,7 @@ class TamingGumbelVQVAE(BaseCodec):
         imgs = self.preprocess(imgs)
         code = self.enc(imgs)
         if self.quantize_number != 0:
-            code = self.full_to_quantize[code]
+            code = self.full_to_quantize[code.to('cpu')]
         output = {'token': code}
         # output = {'token': rearrange(code, 'b h w -> b (h w)')}
         return output
