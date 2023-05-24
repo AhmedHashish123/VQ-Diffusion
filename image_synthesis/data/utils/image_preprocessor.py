@@ -2,9 +2,6 @@ import albumentations
 import random
 import numpy as np
 from PIL import Image
-import cv2
-from io import BytesIO
-from torchvision import transforms as trans
 
 class DalleTransformerPreprocessor(object):
     def __init__(self, 
