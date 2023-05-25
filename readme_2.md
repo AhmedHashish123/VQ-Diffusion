@@ -95,40 +95,40 @@ There are six different inference methods which will also be shown.<br />
 ![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Pretrained/pretrained_6/000003.png)
 
 ### Custom Inference VQ-Diffusion:<br />
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_1/000000.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_1/000001.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_1/000002.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_1/000003.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_1/000000.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_1/000001.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_1/000002.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_1/000003.png)
 
 ### Custom Inference Improved VQ-Diffusion with learnable classifier-free sampling:<br />
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_2/000000.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_2/000001.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_2/000002.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_2/000003.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_2/000000.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_2/000001.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_2/000002.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_2/000003.png)
 
 ### Custom Inference Improved VQ-Diffusion with high-quality inference:<br />
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_3/000000.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_3/000001.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_3/000002.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_3/000003.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_3/000000.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_3/000001.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_3/000002.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_3/000003.png)
 
 ### Custom Inference Improved VQ-Diffusion with fast inference:<br />
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_4/000000.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_4/000001.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_4/000002.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_4/000003.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_4/000000.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_4/000001.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_4/000002.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_4/000003.png)
 
 ### Custom Inference Improved VQ-Diffusion with purity sampling:<br />
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_5/000000.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_5/000001.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_5/000002.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_5/000003.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_5/000000.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_5/000001.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_5/000002.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_5/000003.png)
 
 ### Custom Inference Improved VQ-Diffusion with both learnable classifier-free sampling and fast inference:<br />
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_6/000000.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_6/000001.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_6/000002.png)
-![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/tree/main/Samples/Custom/custom_6/000003.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_6/000000.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_6/000001.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_6/000002.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Custom/custom_6/000003.png)
 
 ## Name & Link of The Training Set:<br />
 
