@@ -3,7 +3,6 @@ import sys
 
 input_text = sys.argv[1]
 n_images = sys.argv[2]
-print(input_text)
 
 VQ_Diffusion_model = VQ_Diffusion(config='OUTPUT/pretrained_model/config_text.yaml', path='OUTPUT/pretrained_model/coco_pretrained.pth')
 
