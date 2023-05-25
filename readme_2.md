@@ -52,7 +52,7 @@ To train using method 2:<br />
 
 ## Samples:<br />
 
-Since training requires a very powerful system. I could not train using the original COCO 2014 dataset. I used a stripped down version (300 times less data).<br />
+Since training requires a very powerful system. I could not train using the original COCO 2014 dataset. I created a stripped down version.<br />
 The reason for this was to check that the training works. I also trained for one epoch. So, it goes without saying that the model will not produce good results.<br />
 Even the provided pretrained model was not trained for a lot of epochs.<br />
 In this section, I'm going to compare the outputs of my trained model and the pretrained model using the same propmt: "A group of elephants walking in muddy water"<br />
