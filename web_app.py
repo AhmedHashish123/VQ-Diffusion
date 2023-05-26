@@ -5,6 +5,10 @@ import shutil
 from super_image import EdsrModel, ImageLoader
 from PIL import Image
 
+
+"""
+Caching the models so that I don't have to load them every time for inference
+"""
 @st.cache_resource
 def create_diffusion_model():
     VQ_Diffusion_model = VQ_Diffusion(config='OUTPUT/pretrained_model/config_text.yaml', path='OUTPUT/pretrained_model/coco_pretrained.pth')
@@ -15,12 +19,18 @@ def create_sr_model():
     sr_model = EdsrModel.from_pretrained('eugenesiow/edsr-base', scale=2)
     return sr_model
 
+
+"""
+session_state is used for storing states because buttons can't store their states.
+This makes me able to create and press a button when another button is pressed.
+"""
 def set_stage(stage):
     st.session_state.stage = stage
 
 # Define the Streamlit app
 def main():
 
+    # Loading the models (happens only once)
     VQ_Diffusion_model = create_diffusion_model()
     super_resolution_model = create_sr_model()
 
@@ -66,6 +76,8 @@ def main():
     n_images = st.selectbox("How many images do you want? (The higher the number, the more time it takes for the AI to draw them.)",("1", "2", "3", "4", "5"))
     st.button('Generate Image', on_click=set_stage, args=(1,))
 
+
+    # Image(s) generation part
     if st.session_state.stage == 1:
 
         path = "RESULT/"+input_text+"/"
@@ -95,6 +107,8 @@ def main():
 
         st.button('Increase Resolution', on_click=set_stage, args=(2,))
 
+
+    # Super resolution part
     if st.session_state.stage == 2:
 
         onscreen = st.empty()
@@ -123,6 +137,7 @@ def main():
         onscreen.header(':fireworks: :green[Done!] :fireworks:')
 
 
+    # Resetting
     st.button('Reset', on_click=set_stage, args=(0,))
 
 
