@@ -162,6 +162,27 @@ These parameters add up to 497.1 million.<br />
 
 Variational Bayes loss is used in this project. To get this loss, Kullback-Leibler (KL) divergence is calculated.
 
+## Web App:<br />
+
+Streamlit was used to develop the web app for this project.<br />
+Once you start running the web app (check "Running" section below), it will start caching the model so that you only need to load them in once and not every time you need to infer.<br />
+
+- Once the models are loaded and cached, you will be presented by this screen:<br />
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Web_App/1.png)
+
+- Once your text description and the number of images you want to generate, click on the "Generate" button:<br />
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Web_App/2.png)
+
+- After the image(s) have been generated, they will be displayed to you as shown:<br />
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Web_App/3.png)
+
+- The output image(s) are 256 X 256, you can choose to increase the resolution by clicking the "Increase Resolution" button:<br />
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Web_App/4.png)
+
+- The output image(s) will be 512 X 512 and will be displayed to you as shown:<br />
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Web_App/5.png)
+![alt text](https://github.com/AhmedHashish123/VQ-Diffusion/blob/main/Samples/Web_App/6.png)
+
 ## Running:<br />
 
 - To run the web app type:<br />
