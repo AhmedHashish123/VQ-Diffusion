@@ -6,9 +6,9 @@ from super_image import EdsrModel, ImageLoader
 from PIL import Image
 
 
-"""
-Caching the models so that I don't have to load them every time for inference
-"""
+
+# Caching the models so that I don't have to load them every time for inference
+
 @st.cache_resource
 def create_diffusion_model():
     VQ_Diffusion_model = VQ_Diffusion(config='OUTPUT/pretrained_model/config_text.yaml', path='OUTPUT/pretrained_model/coco_pretrained.pth')
@@ -20,10 +20,10 @@ def create_sr_model():
     return sr_model
 
 
-"""
-session_state is used for storing states because buttons can't store their states.
-This makes me able to create and press a button when another button is pressed.
-"""
+
+# session_state is used for storing states because buttons can't store their states.
+# This makes me able to create and press a button when another button is pressed.
+
 def set_stage(stage):
     st.session_state.stage = stage
 
