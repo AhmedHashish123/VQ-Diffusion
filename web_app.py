@@ -74,7 +74,7 @@ def main():
     input_text = st.text_input("Please enter a description for the image", "an elephant walking in muddy water")
 
     n_images = st.selectbox("How many images do you want? (The higher the number, the more time it takes for the AI to draw them.)",("1", "2", "3", "4", "5"))
-    st.button('Generate Image', on_click=set_stage, args=(1,))
+    st.button('Generate', on_click=set_stage, args=(1,))
 
 
     # Image(s) generation part
