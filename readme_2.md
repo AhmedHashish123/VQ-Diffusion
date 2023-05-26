@@ -161,4 +161,16 @@ These parameters add up to 497.1 million.<br />
 ## Model Evaluation Metric:<br />
 
 Variational Bayes loss is used in this project. To get this loss, Kullback-Leibler (KL) divergence is calculated.
+
+## Running:<br />
+
+- To run the web app type:<br />
+  streamlit run web_app.py<br />
+  
+- To run through CLI type:<br />
+  python infer.py "your text decription" "number of images"<br />
+  
+  Example:<br />
+  python infer.py "A group of elephants walking in muddy water" 4<br />
+
   
