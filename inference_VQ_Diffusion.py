@@ -33,6 +33,8 @@ class VQ_Diffusion():
         if 'OUTPUT' in model_path: # pretrained model
             if(platform.system() == "Windows"):
                 model_name = model_path.split('/')[-3]
+            else:
+                model_name = model_path.split(os.path.sep)[-3]
         else: 
             model_name = os.path.basename(config_path).replace('.yaml', '')
 
